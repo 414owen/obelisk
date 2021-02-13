@@ -6,10 +6,11 @@
     security.acme.acceptTerms = false;
   }
 , reflex-platform-func ? import ./dep/reflex-platform
+, hlsSupport ? false
 }:
 let
   reflex-platform = getReflexPlatform { inherit system; };
-  inherit (reflex-platform) hackGet nixpkgs;
+  inherit (reflex-platform) hackGet nixpkgs hlsSupport;
   pkgs = nixpkgs;
 
   inherit (import dep/gitignore.nix { inherit (nixpkgs) lib; }) gitignoreSource;
