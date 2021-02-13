@@ -1,8 +1,8 @@
 {
-  "owner": "reflex-frp",
+  "owner": "ibizaman",
   "repo": "reflex-platform",
   "branch": "release/0.7.0.0",
   "private": false,
-  "rev": "27a7851a780ff21472d85f9a02fb84635ef9027a",
-  "sha256": "1m4zlw91dpjlbdchjyxhvhv3k7lilm0qa17dhhww868xxc27sann"
+  "rev": "a9cd44d288395092fdaa76a6a7f146049cc21f15",
+  "sha256": "1nfzls18cs0a1a0d3xiiidsl0n6clcf5z9i8b78yj1k8hdc6k1fh"
 }
